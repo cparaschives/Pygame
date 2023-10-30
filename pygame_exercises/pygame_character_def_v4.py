@@ -11,7 +11,7 @@ pygame.display.set_caption("Microbial_Mayhem")
 
 isRunning = True
 
-background=pygame.image.load("/Users/pfb23/Desktop/bacterium_images/background4.png")
+background=pygame.image.load("/Users/pfb23/Desktop/bacterium_images/background5.png")
 background=pygame.transform.scale(background,(width*1,height*1))
 
 #Loading microbe_1
@@ -32,10 +32,10 @@ player_2_rotate=pygame.transform.rotate(player_2_size, -10)
  
 #Specifying the X and Y Coordinate
 player1_X = 55 
-player1_Y = 80 
+player1_Y = 40 
 
 player2_X = 700 
-player2_Y = 80 
+player2_Y = 40 
 
 X1_change = 0 
 Y1_change = 0 
