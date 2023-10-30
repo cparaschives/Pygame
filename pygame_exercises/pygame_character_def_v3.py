@@ -11,11 +11,11 @@ pygame.display.set_caption("Microbial_Mayhem")
 
 isRunning = True
 
-background=pygame.image.load("/Users/pfb23/Desktop/bacterium_images/background.png")
+background=pygame.image.load("/Users/pfb23/Desktop/bacterium_images/background2.png")
 background=pygame.transform.scale(background,(width*1,height*1))
 
 #Loading microbe_1
-player_1 = pygame.image.load("/Users/pfb23/Desktop/bacterium_images/cropped/M2.png").convert_alpha()
+player_1 = pygame.image.load("/Users/pfb23/Desktop/bacterium_images/cropped/M3.png").convert_alpha()
 player_2 = pygame.image.load("/Users/pfb23/Desktop/bacterium_images/cropped/M4.png").convert_alpha()
    
 w = player_1.get_width()
